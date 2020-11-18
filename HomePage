@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset= "utf-8" />
+	<title>Main</title>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+  	<div class="container">
+		<div class="nav-wrapper">
+			<div class="left-side">
+				
+
+				<div class="nav-link-wrapper">
+					<a href="addapt.html">Home</a>
+				</div>
+				
+				<div class="nav-link-wrapper">
+					<a href="about.html">About</a>
+				</div>
+			</div>
+
+			<div class="right-side"> 
+
+				<div class="nav-link-wrapper">
+					<a href="getinvolved.html">Get Involved</a>
+				</div>
+		
+				<div class="nav-link-wrapper">				
+					<a href="covid-19.html">Covid-19 Resources</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="content-wrapper">
+		<div class="portfolio-items-wrapper">
+	
+			<div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/chatbots-for-businesses-cc.png)"></div>   
+
+				<div class="img-text-wrapper">
+					<div class="logo-wrapper>
+						<img src="/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/logos/chat.jpg">
+					</div>
+
+
+					<div class="subtitle" style="text-align:center;">
+						Virtual Assistant - Planner
+					</div>   
+				</div>
+			</div>
+
+			<div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/pexels-karolina-grabowska-4219044.jpg)"></div>   
+
+				<div class="img-text-wrapper">
+					<div class="logo-wrapper>
+						<img src="/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/logos/processing.jpg">
+					</div>
+
+
+					<div class="subtitle" style="text-align:center;">
+						Courses - Choose a Module
+					</div>   
+				</div>
+			</div>
+
+			<div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/Version-4.png)"></div>   
+
+				<div class="img-text-wrapper">
+					<div class="logo-wrapper>
+						<img src="/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/logos/male-user.jpg">
+					</div>
+
+
+					<div class="subtitle" style="text-align:center;">
+						Jobs - Target an Outcome
+					</div>   
+				</div>
+			</div>
+
+			<div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/jake-davies-LPEhUaiNV1o-unsplash.jpg)"></div>   
+
+				<div class="img-text-wrapper">
+					<div class="logo-wrapper>
+						<img src="/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/logos/world.jpg">
+					</div>
+
+
+					<div class="subtitle" style="text-align:center;">
+						Maps - Locate a Job
+					</div>   
+				</div>
+			</div>
+
+
+			<div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/pexels-andrea-piacquadio-3760072.jpg)"></div>   
+
+				<div class="img-text-wrapper">
+					<div class="logo-wrapper>
+						<img src="/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/logos/ID.jpg">
+					</div>
+
+
+					<div class="subtitle" style="text-align:center;">
+						Resume 
+					</div>   
+				</div>
+			</div>
+
+ 			<div class="portfolio-item-wrapper">
+				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/anomaly-C_n_qz-Ftao-unsplash.jpg)"></div>   
+
+				<div class="img-text-wrapper">
+					<div class="logo-wrapper>
+						<img src="images/logos/shield.jpg">
+					</div>
+
+
+					<div class="subtitle" style="text-align:center;">
+						   References via Social media
+					</div>   
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+		
+</body>
+
+<script>
+	const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+	portfolioItems.forEach(portfolioItem => {
+		portfolioItem.addEventListener('mouseover', () => {
+			portfolioItem.childNodes[1].classList.add('img-darken');
+			
+		})
+	
+		portfolioItem.addEventListener('mouseout', () => {
+			portfolioItem.childNodes[1].classList.remove('img-darken');
+			
+		})
+	})
+</script>
+
+</html>
+
+
+
+
+
+
+
+
+
