@@ -9,14 +9,12 @@
 "/Users/Ev3linna/Desktop/Make-a-thon 2020/Addapt Website/images/LogoMakr-0x3Qla.png" 
         type = "image/x-icon">
 
-
 <link rel="stylesheet" href="styles.css">
 </head>
 
-
 <body>  
 	<div class="container">
-
+	
 		<div class="nav-wrapper">
 
 			<div class="left-side">
@@ -43,7 +41,6 @@
 		</div>
 	</div>
 
-
 	<div class="content-wrapper">
 		<div class="portfolio-items-wrapper">
 	
@@ -54,7 +51,6 @@
 					<div class="logo-wrapper>
 						<img src="/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/logos/chat.jpg">
 					</div>
-
 
 					<div class="subtitle" style="text-align:center;">
 						CAREER CENTER
