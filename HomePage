@@ -3,19 +3,25 @@
 
 <head>
 	<meta charset= "utf-8" />
-	<title>Main</title>
+	<title>ADDAPT</title>
+
+<link rel = "icon" href =  
+"/Users/Ev3linna/Desktop/Make-a-thon 2020/Addapt Website/images/LogoMakr-0x3Qla.png" 
+        type = "image/x-icon">
+
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
 
-<body>
-  	<div class="container">
-		<div class="nav-wrapper">
-			<div class="left-side">
-				
+<body>  
+	<div class="container">
 
-				<div class="nav-link-wrapper">
+		<div class="nav-wrapper">
+
+			<div class="left-side">
+
+			        <div class="nav-link-wrapper">
 					<a href="addapt.html">Home</a>
 				</div>
 				
@@ -42,7 +48,7 @@
 		<div class="portfolio-items-wrapper">
 	
 			<div class="portfolio-item-wrapper">
-				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/chatbots-for-businesses-cc.png)"></div>   
+				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/pexels-fauxels-3183187.jpg)"></div>   
 
 				<div class="img-text-wrapper">
 					<div class="logo-wrapper>
@@ -51,13 +57,13 @@
 
 
 					<div class="subtitle" style="text-align:center;">
-						Virtual Assistant - Planner
+						CAREER CENTER
 					</div>   
 				</div>
 			</div>
 
 			<div class="portfolio-item-wrapper">
-				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/pexels-karolina-grabowska-4219044.jpg)"></div>   
+				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/pexels-olia-danilevich-5088008.jpg)"></div>   
 
 				<div class="img-text-wrapper">
 					<div class="logo-wrapper>
@@ -66,13 +72,13 @@
 
 
 					<div class="subtitle" style="text-align:center;">
-						Courses - Choose a Module
+						COURSES
 					</div>   
 				</div>
 			</div>
 
 			<div class="portfolio-item-wrapper">
-				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/Version-4.png)"></div>   
+				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/pexels-pixabay-355952.jpg)"></div>   
 
 				<div class="img-text-wrapper">
 					<div class="logo-wrapper>
@@ -81,7 +87,7 @@
 
 
 					<div class="subtitle" style="text-align:center;">
-						Jobs - Target an Outcome
+						HELP CENTER
 					</div>   
 				</div>
 			</div>
@@ -96,38 +102,7 @@
 
 
 					<div class="subtitle" style="text-align:center;">
-						Maps - Locate a Job
-					</div>   
-				</div>
-			</div>
-
-
-			<div class="portfolio-item-wrapper">
-				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/pexels-andrea-piacquadio-3760072.jpg)"></div>   
-
-				<div class="img-text-wrapper">
-					<div class="logo-wrapper>
-						<img src="/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/logos/ID.jpg">
-					</div>
-
-
-					<div class="subtitle" style="text-align:center;">
-						Resume 
-					</div>   
-				</div>
-			</div>
-
- 			<div class="portfolio-item-wrapper">
-				<div class="portfolio-img-background" style="background-image:url(/Users/Ev3linna/Desktop/Make-a-thon\ 2020/Addapt\ Website/images/anomaly-C_n_qz-Ftao-unsplash.jpg)"></div>   
-
-				<div class="img-text-wrapper">
-					<div class="logo-wrapper>
-						<img src="images/logos/shield.jpg">
-					</div>
-
-
-					<div class="subtitle" style="text-align:center;">
-						   References via Social media
+						JOB MAP
 					</div>   
 				</div>
 			</div>
